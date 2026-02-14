@@ -106,9 +106,9 @@
 
         L1 {
             bindings = <
-&trans      &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt POUND NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT NUMBER_5    &mt CARET NUMBER_6  &mt AMPERSAND NUMBER_7  &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &mt RIGHT_PARENTHESIS NUMBER_0  &mt UNDERSCORE MINUS
-&bt BT_CLR  &bt BT_SEL 0              &bt BT_SEL 1          &bt BT_SEL 2        &bt BT_SEL 3         &bt BT_SEL 4            &trans              &kp LEFT_ARROW          &kp UP_ARROW           &kp RIGHT_ARROW                &trans                          &mt PLUS EQUAL
-&trans      &trans                    &trans                &trans              &trans               &trans                  &trans              &trans                  &kp DOWN_ARROW         &trans                         &trans                          &trans
+&bt BT_CLR  &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt POUND NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT NUMBER_5    &mt CARET NUMBER_6  &mt AMPERSAND NUMBER_7  &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &mt RIGHT_PARENTHESIS NUMBER_0  &mt UNDERSCORE MINUS
+&trans      &kp LG(C)                 &kp LG(V)             &kp LG(X)           &trans               &trans                  &trans              &kp LEFT_ARROW          &kp UP_ARROW           &kp RIGHT_ARROW                &kp C_VOLUME_UP                 &mt PLUS EQUAL
+&kp GLOBE   &bt BT_SEL 0              &bt BT_SEL 1          &bt BT_SEL 2        &bt BT_SEL 3         &bt BT_SEL 4            &trans              &trans                  &kp DOWN_ARROW         &trans                         &kp C_VOL_DN                    &kp K_MUTE
                                                             &trans              &trans               &trans                  &trans              &trans                  &trans
             >;
         };
